@@ -1,6 +1,6 @@
 title:               Comparative Legislators Database
 url:                 https://seramirezruiz.github.io/
-baseurl:             cld-master
+baseurl:             /cld-master
 
 markdown:            kramdown
 remote-theme:        nicoelayda/celeste
