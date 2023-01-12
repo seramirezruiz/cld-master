@@ -1,8 +1,9 @@
 title:               Comparative Legislators Database
-url:                 https://seramirezruiz.github.io/cld-web
+url:                 https://seramirezruiz.github.io/
 baseurl:             ""
 
 markdown:            kramdown
+remote-theme:        nicoelayda/celeste
 highlighter:         rouge
 
 exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
