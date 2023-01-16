@@ -14,7 +14,7 @@ The data collection is divided into four steps:
 
 ---
 
-<img src="../../img/data-collection.png" style="display:block;margin-left:auto;margin-right:auto;height:auto;width:100%">
+<img src="../img/data-collection.png" style="display:block;margin-left:auto;margin-right:auto;height:auto;width:100%">
 
 ---
 

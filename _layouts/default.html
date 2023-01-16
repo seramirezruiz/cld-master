@@ -7,8 +7,10 @@
     <nav class="nav-main">
       <ul>
         <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/about/">about</a></li>
-        <li class="logo-p"><a class="hvr-ripple-out" href="{{ site.baseurl }}/">CLD</a></li>
         <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/data/">data</a></li>
+        <li class="logo-p"><a class="hvr-ripple-out" href="{{ site.baseurl }}/">CLD</a></li>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/legislator">legislatoR</a></li>
+        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/contribute/">contribute</a></li>
       </ul>
     </nav>
 
@@ -17,17 +19,11 @@
         {{ content }}
       </main>
 
-      <footer class="footer">
-        <small>
-            <span class="copyright"><i class="fa fa-copyright"></i> <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> cld</span> &middot;
-            <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
-        </small>
-        <div class="ftr-links">
-          <a href="https://github.com/saschagobel/legislatoR"><i class="fa fa-github-alt"></i></a>
-          <a href="https://twitter.com/complegdatabase"><i class="fa fa-twitter"></i></a>
-        </div>
-      </footer>
+      {% include footer.html %}
+
     </div>
+
+
 
   </body>
 </html>

@@ -1,0 +1,1 @@
+@article{göbel_munzert_2022, title={The Comparative Legislators Database}, volume={52}, DOI={10.1017/S0007123420000897}, number={3}, journal={British Journal of Political Science}, publisher={Cambridge University Press}, author={Göbel, Sascha and Munzert, Simon}, year={2022}, pages={1398–1408}}
