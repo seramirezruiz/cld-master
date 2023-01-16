@@ -177,6 +177,10 @@ opacity: 0.3;
 .team-member {
   display: none;
 }
+
+.nav-main {
+  font-size: 0.95em;
+}
 }
 
 .updates {
@@ -205,3 +209,7 @@ opacity: 0.3;
 .supporter:hover {
 	 opacity: 0.5;
 	}
+
+  .table-wrapper {
+    overflow-x: scroll;
+  }

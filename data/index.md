@@ -31,6 +31,8 @@ Learn more about the <a href="{{ site.baseurl }}/data/structure/">database struc
 
 In its current version (2.0), the CLD covers the following legislatures:
 
+<div class="table-wrapper" markdown="block">
+
 | Legislature               | Country        | Years     | Legislative sessions | Politicians (unique) | Integrated with                                                                                                       |
 |---------------------------|----------------|-----------|----------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Nationalrat               | Austria        | 1920-2019 | all 27               | 1,923                | [ParlSpeech V2](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN) (Rauh/Schwalbach 2020)                                                                                  |
@@ -45,3 +47,5 @@ In its current version (2.0), the CLD covers the following legislatures:
 | House of Representatives       | United States  | 1789-2019 | all 116              | 12,512               | [Voteview data](https://voteview.com/data) (Lewis et al. 2019), <br /> [Congressional Bills Project data](http://www.congressionalbills.org/) (Adler/Wilkserson 2018)                           |
 | Senate          | United States  | 1789-2019 | all 116              | 12,512               | [Voteview data](https://voteview.com/data) (Lewis et al. 2019), <br /> [Congressional Bills Project data](http://www.congressionalbills.org/) (Adler/Wilkserson 2018)                           |
 |   **XX**                      | **10**             |         | **338**                  | **45,540**               |                                                                                                                |
+
+</div>

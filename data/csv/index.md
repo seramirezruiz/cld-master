@@ -10,7 +10,7 @@ We can populate this page with download links to the individual files. We can st
 ---
 
 Depending on how the .csv files look like (level of partition), we can link them up inside a table:
-
+<div class="table-wrapper">
 <table class="table-hover"> <thead>
           <tr>
             <th>Country</th>
@@ -140,3 +140,4 @@ Depending on how the .csv files look like (level of partition), we can link them
           </tr>
         </tbody>
       </table>
+</div>
