@@ -9,9 +9,9 @@ The Comparative Legislators Database (CLD) is a one-stop shop for rich, diverse 
 
 ---
 
-<h3 class="legislator-blue">Updates</h3>
+<h3 class="legislator-blue">News</h3>
 
-<a class="updates" href="{{ site.baseurl }}/blog/2023/01/02/version-release">2023/02/01: Release of the CLD V2</a><br>We're happy to announce the release of V2 of our database. The update comes with four additional countries and 6 additional legislatures being covered, plus lots of more improvements under the hood.
+<a class="updates" href="{{ site.baseurl }}/blog/2023/01/02/version-release">2023/02/01: Release of the CLD update</a><br>We're happy to announce the release an update of our database. The update comes with four additional countries and 6 additional legislatures being covered, plus lots of more improvements under the hood.
 
 <a class="updates" href="{{ site.baseurl }}/blog/2021/02/23/cld-bjps">2021/02/23: CLD paper published in BJPS</a><br>Our paper introducing the CLD was published in the <a href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/comparative-legislators-database/D28BB58A8B2C08C8593DB741F42C18B2">British Journal of Political Science</a>.
 
@@ -46,8 +46,15 @@ The Comparative Legislators Database (CLD) is a team effort comprised of volunte
 
 <h3 class="legislator-blue">How to cite</h3>
 
-If you use our data, please cite: Göbel, S., & Munzert, S. (2022). The comparative legislators database. *British Journal of Political Science*, 52(3), 1398-1408." <a class="updates" href="#" download="#">[Download Bibtex here]</a>
+Göbel, S., & Munzert, S. (2022). The comparative legislators database. *British Journal of Political Science*, 52(3), 1398-1408." <a class="updates" href="#" download="#">[Download Bibtex here]</a>
 
 ---
 
-Do you have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/saschagobel/legislatoR/issues/new) or [ask us on Twitter](https://twitter.com/complegdatabase).
+<h3 class="legislator-blue">Acknowledgements</h3>
+
+We acknowledge financial support for this project by the <a class="updates" href="https://www.daimler-benz-stiftung.de/" target="_blank">Daimler and Benz Foundation</a> and the <a class="updates" href="https://www.hertie-school.org/" target="_blank">Hertie School</a>.
+
+
+---
+
+Do you have questions or suggestions? Feel free to [email us](#) or [ask us on Twitter](https://twitter.com/complegdatabase).
