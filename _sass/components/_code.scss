@@ -10,7 +10,7 @@ pre {
 }
 
 code {
-  padding: .25em .5em;
+  padding: .25em .25em;
   font-size: 85%;
   color: #bf616a;
   background-color: #f9f9f9;
@@ -30,7 +30,7 @@ pre code {
 }
 
 .highlight {
-  padding: 1rem;
+  padding: 0.5rem;
   margin-bottom: 1rem;
   font-size: .8rem;
   line-height: 1.4;
@@ -47,7 +47,7 @@ pre code {
     padding-right: .75rem;
     padding-left: .25rem;
     color: #999;
-    
+
     // Make sure numbers aren't selectable
     @include prefix(user-select, none);
   }
