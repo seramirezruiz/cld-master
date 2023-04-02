@@ -29,7 +29,7 @@ Learn more about the <a href="{{ site.baseurl }}/data/structure/">database struc
 
 <h2 class="legislator-blue">Data coverage</h2>
 
-In its current version (2.0), the CLD covers the following legislatures:
+In its current version, the CLD covers the following legislatures:
 
 <div class="table-wrapper" markdown="block">
 
