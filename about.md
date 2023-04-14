@@ -4,7 +4,7 @@ title: About the CLD
 ---
 
 <p class="message">
-The Comparative Legislators Database (CLD) is a one-stop shop for rich, diverse and integrated individual-level data on national political representatives. The database contains information for over 45,000 contemporary and historical legislators from 14 countries and the European Parliament. In our project, we unite collaborative micro-data collection efforts and bring these together through the use of Wikipedia and Wikidata.
+The Comparative Legislators Database (CLD) is a one-stop shop for rich, diverse and integrated individual-level data on national political representatives. The database contains information for over 67,000 contemporary and historical legislators from 16 countries. In our project, we unite collaborative micro-data collection efforts and bring these together through the use of Wikipedia and Wikidata.
 </p>
 
 ---
@@ -13,7 +13,7 @@ The Comparative Legislators Database (CLD) is a one-stop shop for rich, diverse 
 
 <a class="updates" href="{{ site.baseurl }}/blog/2023/01/02/version-release">2023/02/01: Release of the CLD update</a><br>We're happy to announce the release an update of our database. The update comes with four additional countries and 6 additional legislatures being covered, plus lots of more improvements under the hood.
 
-<a class="updates" href="{{ site.baseurl }}/blog/2021/02/23/cld-bjps">2021/02/23: CLD paper published in BJPS</a><br>Our paper introducing the CLD was published in the <a href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/comparative-legislators-database/D28BB58A8B2C08C8593DB741F42C18B2">British Journal of Political Science</a>.
+<a class="updates" href="{{ site.baseurl }}/blog/2021/04/15/cld-bjps">2021/04/15: CLD paper published in BJPS</a><br>Our paper introducing the CLD was published in the <a href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/comparative-legislators-database/D28BB58A8B2C08C8593DB741F42C18B2">British Journal of Political Science</a>.
 
 See all <a href="{{ site.baseurl }}/blog/">news</a> relating to the CLD.
 
@@ -46,7 +46,7 @@ The Comparative Legislators Database (CLD) is a team effort comprised of volunte
 
 <h3 class="legislator-blue">How to cite</h3>
 
-Göbel, S., & Munzert, S. (2022). The comparative legislators database. *British Journal of Political Science*, 52(3), 1398-1408." <a class="updates" href="#" download="#">[Download Bibtex here]</a>
+Göbel, S., & Munzert, S. (2022). The comparative legislators database. *British Journal of Political Science*, 52(3), 1398-1408." <a class="updates" href="{{ site.baseurl }}/assets/goebel-munzert-2022-cld-bjps.bib" download="">[Download Bibtex here]</a>
 
 ---
 

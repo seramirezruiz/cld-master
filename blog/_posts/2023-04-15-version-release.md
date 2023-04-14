@@ -5,7 +5,7 @@ truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 
-Brief release about V2 announcement
+Brief release about V1.1 announcement
 
 <!--more-->
 

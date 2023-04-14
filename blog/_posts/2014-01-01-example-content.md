@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example format for content
+title: You can check this file for the news stuff format (this needs to be populated)
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
