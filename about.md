@@ -23,12 +23,12 @@ See all <a href="{{ site.baseurl }}/blog/">news</a> relating to the CLD.
 
 <div class="row">
 <div class="col-md-4">
-<span class="database-stats">14</span> countries<br>
-<span class="database-stats">17</span> legislatures<br>
-<span class="database-stats">338</span> legislative sessions<br>
+<span class="database-stats">16</span> countries<br>
+<span class="database-stats">18</span> legislatures<br>
+<span class="database-stats">529</span> legislative sessions<br>
 </div>
 <div class="col-md-4">
-<span class="database-stats">45k+</span> politicians<br>
+<span class="database-stats">67k+</span> politicians<br>
 <span class="database-stats">9</span> integrated other datasets<br>
 </div>
 <div class="col-md-4">
