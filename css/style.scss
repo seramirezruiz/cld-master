@@ -173,13 +173,23 @@ opacity: 0.3;
   color:#000;
 }
 
+li.logo-m {
+  display:none;
+}
+
 @media (max-width: 768px){
+
+
+li.logo-m {
+  display:inline-block;
+}
+
 .team-member {
   display: none;
 }
 
-li.logo-p a {
-  width:2em;height:2em;border-radius:80px;line-height:2em;
+li.logo-p {
+  display: none;
 }
 
 .nav-main {
