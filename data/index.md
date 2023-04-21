@@ -49,7 +49,7 @@ In its current version, the CLD covers the following legislatures:
 | Spain (Congreso de los Diputados)    | all 14<br /> (1979-2019)          | 2,616           | [ParlSpeech V2](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L4OAKN) (Rauh/Schwalbach 2020)      |        
 | Turkey (Büyük Millet Meclisi)        | all 27<br /> (1920-2018)          | 5,298                |              |
 | United Kingdom (House of Commons)    | all 58<br /> (1801-2019)          | 11,321               | [EggersSpirling data](https://github.com/ArthurSpirling/EggersSpirlingDatabase) (starting from <br /> 38th session, Eggers/Spirling 2014),<br /> [ParlSpeech V1](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E4RSP9) (Rauh et al. 2017) |
-| United States (House and Senate)     | all 117<br /> (1789-2021)         | 12,593               | [Voteview data](https://voteview.com/data) (Lewis et al. 2019), <br /> [Congressional Bills Project data](http://www.congressionalbills.org/) (Adler/Wilkserson 2018) |
+| United States (House and Senate)     | all 117<br /> (1789-2021)         | 12,593               | [Voteview data](https://voteview.com/data) (Lewis et al. 2019), <br /> [Congressional Bills Project data](http://www.congressionalbills.org/) (Adler/Wilkerson 2018) |
 | **16**                                | **529**                     | **67,945**           | **12** 		       |
 
 \* We only count legislators with a unique Wikipedia page or Wikidata ID. Sometimes legislators do not have either. Such cases are indicated by the string "miss" in the wikidataid or pageid.
