@@ -4,7 +4,8 @@ title: About the CLD
 ---
 
 <p class="message">
-The Comparative Legislators Database (CLD) is a one-stop shop for rich, diverse and integrated individual-level data on national political representatives. The database contains information for over 67,000 contemporary and historical legislators from 16 countries. In our project, we unite collaborative micro-data collection efforts and bring these together through the use of Wikipedia and Wikidata.
+The Comparative Legislators Database (CLD) is a one-stop shop for rich, diverse and integrated individual-level data on national political representatives. The database contains information for over 67,000 contemporary and historical legislators from 16 countries. It unites collaborative micro-data collection efforts and brings these together through the integration of data from Wikipedia, Wikidata, and other sources.
+
 </p>
 
 ---
@@ -46,7 +47,7 @@ The Comparative Legislators Database (CLD) is a team effort comprised of volunte
 
 <h3 class="legislator-blue">How to cite</h3>
 
-Göbel, S., & Munzert, S. (2022). The comparative legislators database. *British Journal of Political Science*, 52(3), 1398-1408." <a class="updates" href="{{ site.baseurl }}/assets/goebel-munzert-2022-cld-bjps.bib" download="">[Download Bibtex here]</a>
+Göbel, S., & Munzert, S. (2022). The Comparative Legislators Database. *British Journal of Political Science*, 52(3), 1398-1408." <a class="updates" href="{{ site.baseurl }}/assets/goebel-munzert-2022-cld-bjps.bib" download="">[Download Bibtex here]</a>
 
 ---
 
@@ -57,4 +58,6 @@ We acknowledge financial support for this project by the <a class="updates" href
 
 ---
 
-Do you have questions or suggestions? Feel free to [email us](#) or [ask us on Twitter](https://twitter.com/complegdatabase).
+<h3 class="legislator-blue">Contact</h3>
+
+Do you have questions or suggestions? Feel free to [email us](goebel@soz.uni-frankfurt.de) or [reach out on Twitter](https://twitter.com/complegdatabase).
