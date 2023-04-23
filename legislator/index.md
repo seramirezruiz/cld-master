@@ -4,7 +4,7 @@ title: LegislatoR
 ---
 
 <p>
-<b style="color:#cc0065">legislatoR</b> is a package for the software environment R that facilitates access to the Comparative Legislators Database (CLD). The package is available through [CRAN](https://cran.r-project.org/web/packages/legislatoR/index.html) and [GitHub](https://github.com/saschagobel/legislatoR). To install the package from CRAN, type:
+<b style="color:#cc0065">legislatoR</b> is a package for the software environment R that facilitates access to the Comparative Legislators Database (CLD). The package is available through <a href="https://cran.r-project.org/web/packages/legislatoR/index.html">CRAN</a> and <a href="https://github.com/saschagobel/legislatoR">GitHub</a>. To install the package from CRAN, type:
 </p>
 
 ```r
