@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LegislatoR
+title: legislatoR
 ---
 
 <p>
