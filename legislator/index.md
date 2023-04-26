@@ -127,7 +127,7 @@ dplyr::sample_n(10) #get ten random entries
 ```r
 # load US Senate political table for the 116th Congress
 us_senate_political <- legislatoR::get_political(legislature = "usa_senate") %>%
-dplyr::filter(session == 116) #filter only legislators from the 116th Congress
+  dplyr::filter(session == 116) #filter only legislators from the 116th Congress
 
 dplyr::sample_n(us_senate_political, 10) #print ten random entries
 ```
@@ -143,11 +143,11 @@ dplyr::sample_n(us_senate_political, 10) #print ten random entries
 ```r
 # get the seat counts per party for parliament plot
 us_senate_counts <- us_senate_political %>%
-dplyr::group_by(party) %>% #nest at party
-dplyr::summarize(seats = n()) %>% #generate counts
-dplyr::mutate(colors = dplyr::case_when(party == "D" ~ "#3885D3",
-party == "R" ~ "#E02E44",
-party == "Independent" ~ "#637684")) #assign party colors for visualization
+  dplyr::group_by(party) %>% #nest at party
+  dplyr::summarize(seats = n()) %>% #generate counts
+  dplyr::mutate(colors = dplyr::case_when(party == "D" ~ "#3885D3",
+  party == "R" ~ "#E02E44",
+  party == "Independent" ~ "#637684")) #assign party colors for visualization
 
 us_senate_counts
 ```
@@ -173,18 +173,18 @@ us_senate_counts$seats[us_senate_counts$party == "Independent"], # Number of Ind
 
 # plot parliament seats
 ggplot(us_senate_counts) +
-ggpol::geom_parliament(aes(seats = seats, fill = party), color = "black") +
-scale_fill_manual(values = us_senate_counts$colors, labels = us_senate_counts$party) +
-coord_fixed() +
-labs(title = "<b&gtUS Senate membership (116th Congress)</b&gt",
-caption = caption_plot) +
-theme_void() +
-theme(legend.position = "none",
-plot.title = ggtext::element_markdown(),
-plot.caption = ggtext::element_markdown())
+  ggpol::geom_parliament(aes(seats = seats, fill = party), color = "black") +
+  scale_fill_manual(values = us_senate_counts$colors, labels = us_senate_counts$party) +
+  coord_fixed() +
+  labs(title = "<b&gtUS Senate membership (116th Congress)</b&gt",
+  caption = caption_plot) +
+  theme_void() +
+  theme(legend.position = "none",
+  plot.title = ggtext::element_markdown(),
+  plot.caption = ggtext::element_markdown())
 ```
 
-<img src="../img/us-senate-ggparliament.png" alt="us-senate-ggparliament" style="position:relative">
+<img src="../img/usa-ggparliament.png" alt="usa-ggparliament" style="position:relative">
 
 <hr>
 
@@ -194,8 +194,8 @@ plot.caption = ggtext::element_markdown())
 ```r
 # assign Political and Core tables to the environment
 deu_politicians <- dplyr::left_join(x = legislatoR::get_political(legislature = "deu"),
-y = legislatoR::get_core(legislature = "deu"),
-by = "pageid") #these two tables can be joined through their Wikipedia page ID
+                                    y = legislatoR::get_core(legislature = "deu"),
+                                    by = "pageid") #these two tables can be joined through their Wikipedia page ID
 
 head(deu_politicians) #print first couple observations
 ```
@@ -219,9 +219,9 @@ head(deu_politicians) #print first couple observations
 ```r
 # extract birthplace latitudes and longitudes with regular expressions
 deu_birthplace_map_df <- deu_politicians %>%
-dplyr::distinct(wikidataid, .keep_all = T) %>% # keep unique entries of legislators
-dplyr::mutate(lat = stringr::str_extract(birthplace, "[-[:digit:]]{1,4}\\.[:digit:]+") %>% as.numeric(),
-lon = stringr::str_extract(birthplace, "[-[:digit:]]{1,4}\\.[:digit:]+$") %>% as.numeric())
+  dplyr::distinct(wikidataid, .keep_all = T) %>% # keep unique entries of legislators
+  dplyr::mutate(lat = stringr::str_extract(birthplace, "[-[:digit:]]{1,4}\\.[:digit:]+") %>% as.numeric(),
+                lon = stringr::str_extract(birthplace, "[-[:digit:]]{1,4}\\.[:digit:]+$") %>% as.numeric())
 
 # define German boundaries
 lat1 <- 47; lat2 <- 55.5 ; lon1 <- 5.5; lon2 <- 15.5
@@ -229,24 +229,24 @@ lat1 <- 47; lat2 <- 55.5 ; lon1 <- 5.5; lon2 <- 15.5
 germany_sf <- rnaturalearth::ne_countries(scale = "medium", returnclass = "sf", country = "Germany") #get spatial encodings for Germany
 
 ggplot(germany_sf) +
-geom_sf(size = 1) +
-geom_point(data = deu_birthplace_map_df, aes(x = lon, y = lat), size = .25,
-shape = 20, color = "#cc0065", alpha = 0.5) +
-theme_bw() +
-facet_wrap(~party) +
-coord_sf(xlim = c(lon1, lon2), ylim = c(lat1, lat2), expand = FALSE) +
-labs(title = "<b>Birthplace of Bundestag members<b>")+
-theme(plot.margin=grid::unit(c(0,0,0,0), "mm"),
-axis.title = element_blank(),
-axis.ticks = element_blank(),
-axis.text=element_blank(),
-panel.grid.major = element_blank(),
-panel.grid.minor = element_blank(),
-legend.position = "none", text = element_text(size=10),
-panel.grid.minor.y =  element_blank(),
-strip.background = element_rect(fill="white"),
-strip.text.x = element_text(color = "darkblue", face = "bold"),
-plot.title = ggtext::element_markdown(family = "Source Sans Pro"))
+  geom_sf(size = 1) +
+  geom_point(data = deu_birthplace_map_df, aes(x = lon, y = lat), size = .25,
+  shape = 20, color = "#cc0065", alpha = 0.5) +
+  theme_bw() +
+  facet_wrap(~party) +
+  coord_sf(xlim = c(lon1, lon2), ylim = c(lat1, lat2), expand = FALSE) +
+  labs(title = "<b>Birthplace of Bundestag members<b>")+
+  theme(plot.margin=grid::unit(c(0,0,0,0), "mm"),
+  axis.title = element_blank(),
+  axis.ticks = element_blank(),
+  axis.text=element_blank(),
+  panel.grid.major = element_blank(),
+  panel.grid.minor = element_blank(),
+  legend.position = "none", text = element_text(size=10),
+  panel.grid.minor.y =  element_blank(),
+  strip.background = element_rect(fill="white"),
+  strip.text.x = element_text(color = "darkblue", face = "bold"),
+  plot.title = ggtext::element_markdown(family = "Source Sans Pro"))
 ```
 
 <img src="../img/germany_sf.png" alt="bundestag-birth-map" style="position:relative; width: 100%;height: auto;">
